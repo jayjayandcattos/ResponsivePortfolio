@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Projects - WebForge</title>
+</head>
+<body>
+<div class="flex flex-col h-screen">
+    <div class="p-3 border-b-2 border-b-gray-300">
+        <!-- Navbar links -->
+        <nav class="space-x-1 rounded-md px-2 py-2 inline-block hover:bg-gray-100">
+            <div class="flex hover:text-blue-700 hover:cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                     class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+                </svg>
+
+                <a href="../#projects" class="text-lg hover:bg-gray-100">
+                    Go back
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pt-10 flex-1 bg-gray-100">
+        <div class="flex justify-center">
+            <img class="block rounded-md h-[250px] w-[350px] sm:h-[250px] sm:w-[380px]" src="../assets/projects/WebForge.jpg" alt="WebForge">
+        </div>
+
+        <div>
+            <p class="text-center text-2xl font-bold mt-2">WebForge</p>
+        </div>
+
+        <!-- Body -->
+        <div class="my-10 space-y-6 w-4/5 mx-auto">
+            <div>
+                <h3 class="text-xl">Description</h3>
+                <p class="text-gray-600">
+                    WebForge is a web-based project management tool to help teams collaborate on tasks, track project progress, and manage deadlines. The tool includes features such as task creation, assignment, progress tracking, and file sharing.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-xl">Tech Stack</h3>
+                <ul class="list-disc text-gray-600 ml-5">
+                    <li>
+                        Frontend: Angular for building a dynamic and responsive user interface.
+                    </li>
+                    <li>
+                        Backend: Python with Django for handling server-side logic.
+                    </li>
+                    <li>
+                        Database: PostgreSQL for storing project data.
+                    </li>
+                    <li>
+                        Real-time Updates: WebSocket integration for instant collaboration and updates.
+                    </li>
+                    <li>
+                        Authentication: OAuth 2.0 for secure user login and authorization.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center p-8">
+        <a href="./index.html">J3R2Tech</a> - Copyright 2023
+    </footer>
+</div>
+</body>
+</html>

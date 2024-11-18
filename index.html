@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>J3R2Tech</title>
+</head>
+<body>
+    <div class="flex flex-col h-screen">
+        <div class="p-4 border-b-2 border-b-gray-300">
+            <!-- Navbar links -->
+            <nav class="mx-auto">
+                <ul class="flex justify-center space-x-3 border-3">
+                    <li class="bg-blue-100 rounded px-3 pb-1">
+                        <a href="./index.html">
+                            <span class="text-2xl text-blue-600">Home</span>
+                        </a>
+                    </li>
+                    <li class="px-3 pb-1">
+                        <a href="#team">
+                            <span class="text-2xl">Team</span>
+                        </a>
+                    </li>
+                    <li class="px-3 pb-1">
+                        <a href="#projects">
+                            <span class="text-2xl">Projects</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1 bg-gray-100">
+            <!-- Introduction -->
+            <section class="py-[250px] space-y-10 bg-[url('./assets/bgtech.jpg')] w-[100%] bg-cover">
+                <h1 class="text-[34px] font-bold text-center px-10">
+                    Welcome to the official page of J3R2Tech Solutions.
+                </h1>
+
+                <p class="text-xl text-gray-500 text-center px-10">
+                    We are a passionate and dedicated team working towards innovation
+                </p>
+            </section>
+
+            <!-- Tagline -->
+            <section class="bg-gray-700 text-white text-center py-8">
+                <h2 class="text-[25px] text-center italic px-5">
+                    "Empowering Innovation, Building Together"
+                </h2>
+            </section>
+
+            <!-- Meet the Team -->
+            <section id="team" class="mb-36">
+                <div class="mt-20 w-full flex justify-center">
+                    <h2 class="text-[30px] text-center font-bold border-b-2 border-b-blue-600">
+                        Meet the Team
+                    </h2>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="mt-20 grid grid-cols-1 gap-y-20 sm:grid-cols-2 sm:gap-x-20">
+                        <div class="hover:text-blue-700 hover:cursor-pointer sm:col-span-full sm:flex sm:flex-col sm:items-center">
+                            <img class="block rounded-full h-[250x] w-[250px] sm:h-[250px] sm:w-[250px]" src="./assets/team/julius.jpg" alt="CEO">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./team-member/julius-laguna.html">Julius Laguna</a>
+                            </span>
+                            <span class="block text-center text-gray-500">CEO</span>
+                        </div>
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-full h-[250px] w-[250px] sm:h-[250px] sm:w-[250px]" src="./assets/team/roland.jpg" alt="Manager">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./team-member/roland-verdan.html">Roland Verdan</a>
+                            </span>
+                            <span class="block text-center text-gray-500">Manager</span>
+                        </div>
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-full h-[250px] w-[250px] sm:h-[250px] sm:w-[250px]" src="./assets/team/justin.jpg" alt="UI/UX Designer">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./team-member/justin-rivera.html">Justin Rivera</a>
+                            </span>
+                            <span class="block text-center text-gray-500">UI/UX Designer</span>
+                        </div>
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-full h-[250px] w-[250px] sm:h-[250px] sm:w-[250px]" src="./assets/team/redeem.jpg" alt="Backend Developer">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./team-member/redeem-reyes.html">Redeem Reyes</a>
+                            </span>
+                            <span class="block text-center text-gray-500">Backend Developer</span>
+                        </div>
+
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-full h-[250px] w-[250px] sm:h-[250px] sm:w-[250px]" src="./assets/team/joseph.jpg" alt="Frontend Developer">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./team-member/joseph-decastro.html">Joseph Decastro</a>
+                            </span>
+                            <span class="block text-center text-gray-500">Frontend Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects">
+                <div class="w-full flex justify-center sm:mt-52">
+                    <h2 class="text-[30px] text-center font-bold border-b-2 border-b-blue-600">
+                        Projects Completed
+                    </h2>
+                </div>
+
+                <div class="flex justify-center mb-28">
+                    <div class="mt-20 grid grid-cols-1 gap-y-20 sm:grid-cols-3 sm:gap-x-14 sm:mb-40">
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-md w-[300px] sm:h-[250px] sm:w-[250px]" src="./assets/projects/ShopSwift.jpg" alt="Project#1">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./projects/shop-swift.html">ShopSwift</a>
+                            </span>
+                        </div>
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-md w-[300px] sm:h-[250px] sm:w-[250px]" src="./assets/projects/WebForge.jpg" alt="Project#1">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./projects/web-forge.html">WebForge</a>
+                            </span>
+                        </div>
+
+                        <div class="hover:text-blue-700 hover:cursor-pointer">
+                            <img class="block rounded-md w-[300px] sm:h-[250px] sm:w-[250px]" src="./assets/projects/ConnectPulse.jpg" alt="Project#1">
+
+                            <span class="block text-center text-2xl mt-2">
+                                <a href="./projects/connect-pulse.html">ConnectPulse</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="bg-black text-white text-center p-8">
+                <a href="./index.html">J3R2Tech</a> - Copyright 2023
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
